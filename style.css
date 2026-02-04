@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+.cookie-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 999;
+}
+
+.hidden {
+  display: none;
+}
+
+.cookie-card {
+  background: #000;
+  color: #fff;
+  padding: 24px;
+  border: 1px solid #444;
+  border-radius: 14px;
+  width: 300px;
+  text-align: center;
+}
+
+.cookie-card p {
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.cookie-card button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cookie-card button:hover {
+  opacity: 0.9;
+}
